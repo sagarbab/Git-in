@@ -1,0 +1,29 @@
+/*admin dashbord creat*/
+.wrapper{
+    display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+.main-content{
+    
+    padding: 3% 0;   
+}
+.col-4{
+    width:8%;
+    background-color: var(--white-1);
+    margin: 1%;
+    padding: 2%;
+    
+}
+.tbl_full{
+    width: 50%;
+}
+table tr th{
+    border-bottom: 1px solid var(--black-1);
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
